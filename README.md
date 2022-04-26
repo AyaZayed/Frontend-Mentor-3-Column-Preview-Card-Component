@@ -19,7 +19,7 @@ This is a solution to the [3-Column Preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [3-Column Preview Card]()
+- Solution URL: [3-Column Preview Card](https://www.frontendmentor.io/solutions/3column-preview-card-component-BkTuPJLS9)
 
 ## My process
 
