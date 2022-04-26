@@ -16,13 +16,100 @@ body {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   font-family: "Big Shoulders Display", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--Very-light-gray-background-headings-buttons);
+}
+
+.columns {
+  display: flex;
+  width: 47rem;
+  margin: 7rem;
+}
+
+.card {
+  padding: 40px;
+  position: relative;
+}
+
+.card img {
+  width: 3rem;
+}
+
+.card h1 {
+  text-transform: uppercase;
+  margin: 1.3rem 0;
+  font-size: 28px;
+  color: var(--Very-light-gray-background-headings-buttons);
+}
+
+.card p {
+  color: var(--Transparent-white-paragraphs);
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 7rem;
+  font-weight: 400;
+}
+
+.card button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Very-light-gray-background-headings-buttons);
+  border: 1.5px solid var(--Very-light-gray-background-headings-buttons);
+  padding: 10px 25px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.card-1 {
+  background-color: var(--Bright-orange);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-1 button {
+  color: var(--Bright-orange);
+}
+
+.card-2 {
+  background-color: var(--Dark-cyan);
+}
+
+.card-2 button {
+  color: var(--Dark-cyan);
+}
+
+.card-3 {
+  background-color: var(--Very-dark-cyan);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-3 button {
+  color: var(--Very-dark-cyan);
+}
+
+.columns .card button:hover {
+  color: var(--Very-light-gray-background-headings-buttons);
+  background-color: transparent;
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Dark-cyan);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
