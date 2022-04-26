@@ -14,6 +14,7 @@
 
 body {
   font-size: 15px;
+  padding: 15px;
   font-family: "Lexend Deca", sans-serif;
   font-family: "Big Shoulders Display", cursive;
   display: flex;
@@ -25,8 +26,29 @@ body {
 
 .columns {
   display: flex;
-  width: 47rem;
+  max-width: 47rem;
   margin: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .columns {
+    flex-wrap: wrap;
+    max-width: 30rem;
+  }
+  .card-1 {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px !important;
+  }
+  .card-3 {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .columns {
+    width: 100%;
+  }
 }
 
 .card {
